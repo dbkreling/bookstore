@@ -39,6 +39,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'social.apps.django_app.default',
     'registration',
+    'bootstrap3',
+    'bootstrap_themes',
     'store',
 )
 
@@ -122,7 +124,7 @@ EMAIL_HOST_USER = "dbkreling.django@gmail.com"
 EMAIL_HOST_PASSWORD = "sopaderoda"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = "books@misterybookstore.com"
+DEFAULT_FROM_EMAIL = "books@mysterybookstore.com"
 
 # Social Auth - Facebook
 SOCIAL_AUTH_FACEBOOK_KEY = '189618651579342'
