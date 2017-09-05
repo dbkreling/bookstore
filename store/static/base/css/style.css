@@ -1,8 +1,8 @@
 body {
-	font-family: 'Open Sans', sans-serif;
-	margin: 0px;
-	padding: 0px;
-	font-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-color: #fff;
 }
 
 /* General link styles*/
@@ -16,10 +16,10 @@ a:hover {
 
 /* Nav bar styles */
 .navbar, .navbar-inner{
-	filter: alpha(opacity=90);
-	-moz-opacity: 0.9;
-	-khtml-opacity: 0.9;
-	opacity: 0.9;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
     color: #e6e6e6;
 }
 #navbar .navbar-nav li a {
@@ -216,39 +216,39 @@ img.bg {
 
 /* Cart Styles */
 .cart_container {
-		display: block;
-		max-width: 750px;
-		margin-left: auto;
-		margin-right: auto;
+        display: block;
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
 }
 .cart_item {
-		width: 100%;
-		margin-top: 20px;
-		display: block;
-		border-bottom: 1px solid black;
-		padding-bottom: 20px;
+        width: 100%;
+        margin-top: 20px;
+        display: block;
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
 }
 .cart_listing {
-		display: inline-block;
-		width: 50%;
+        display: inline-block;
+        width: 50%;
 }
 .cart_listing .title {
-		display: block;
-		font-weight: bold;
+        display: block;
+        font-weight: bold;
 }
 .cart_price {
-		display: inline-block;
-		text-align: right;
-		width: 49%;
-		vertical-align: top;
+        display: inline-block;
+        text-align: right;
+        width: 49%;
+        vertical-align: top;
 }
 .cart_value {
-		font-weight: bold;
+        font-weight: bold;
 }
 .cart_quantity {
-		display: block;
+        display: block;
 }
 .cart_total {
-		text-align: right;
-		margin-top: 20px;
+        text-align: right;
+        margin-top: 20px;
 }
