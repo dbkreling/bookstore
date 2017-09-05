@@ -39,6 +39,9 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'social.apps.django_app.default',
     'registration',
+    'bootstrap3',
+    'bootstrap_themes',
+    'compressor',
     'store',
 )
 
@@ -109,6 +112,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+COMPRESS_ENABLED = True
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'compressor.finders.CompressorFinder',
+)
 
 # Registration
 ACCOUNT_ACTIVATION_DAYS = 7
@@ -122,7 +132,7 @@ EMAIL_HOST_USER = "dbkreling.django@gmail.com"
 EMAIL_HOST_PASSWORD = "sopaderoda"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = "books@misterybookstore.com"
+DEFAULT_FROM_EMAIL = "books@mysterybookstore.com"
 
 # Social Auth - Facebook
 SOCIAL_AUTH_FACEBOOK_KEY = '189618651579342'
