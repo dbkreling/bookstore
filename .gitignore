@@ -148,6 +148,8 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-#SQLite Databases
+# SQLite Databases
 *.sqlite3
 
+# Compiled static assets
+static/
